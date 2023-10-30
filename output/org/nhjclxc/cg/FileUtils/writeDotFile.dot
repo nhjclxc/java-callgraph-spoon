@@ -77,4 +77,6 @@ digraph "org.nhjclxc.cg.FileUtils.writeDotFile(java.lang.String,java.util.Map)" 
 
 "org.nhjclxc.cg.FileUtils.writeDotFile(java.lang.String,java.util.Map)" -> "org.nhjclxc.cg.FileUtils.getFilePath(java.lang.String)";
 
+"org.nhjclxc.cg.FileUtils.writeDotFile(java.lang.String,java.util.Map)" -> "org.nhjclxc.graphviz.GraphvizAssistant.createImage(java.io.File,java.lang.String,java.lang.String)";
+
 }

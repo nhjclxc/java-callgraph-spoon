@@ -1,4 +1,0 @@
-digraph "org.nhjclxc.cg.CGTestFile.isBool22(java.lang.String,java.lang.Integer)" {
-"org.nhjclxc.cg.CGTestFile.isBool22(java.lang.String,java.lang.Integer)" -> "java.lang.RuntimeException(java.lang.String)";
-
-}
