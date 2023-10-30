@@ -1,0 +1,6 @@
+digraph "org.nhjclxc.cg.CGTestFile.get(java.lang.String,java.lang.Integer,org.nhjclxc.cg.ReturnTestClass)" {
+"org.nhjclxc.cg.CGTestFile.get(java.lang.String,java.lang.Integer,org.nhjclxc.cg.ReturnTestClass)" -> "java.io.PrintStream.println(java.lang.String)";
+
+"org.nhjclxc.cg.CGTestFile.get(java.lang.String,java.lang.Integer,org.nhjclxc.cg.ReturnTestClass)" -> "java.util.LinkedList()";
+
+}
