@@ -97,7 +97,9 @@ public class FileUtils {
             String key = spoonCGNode.getMethodQualifiedName();
             for (SpoonCGNode cgNode : spoonCGDotList) {
                 String edge = "\"" + key + "\" -> \"" + cgNode.getMethodQualifiedName();
-                buildEdges(cgNode, edgeList);
+                if (spoonCGNode != cgNode) { // 防止递归调用的函数出现栈溢出
+                    buildEdges(cgNode, edgeList);
+                }
                 edge += "\";\n\n";
                 edgeList.add(edge);
             }

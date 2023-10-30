@@ -27,7 +27,7 @@ public class SpoonCGProcessor extends AbstractProcessor<CtMethod<?>> { // 泛型
         Launcher launcher = new Launcher();
 
         // 设置源码目录
-        String path = "E:\\nbu\\other\\java-callgraph-spoon\\src\\main\\java\\org\\nhjclxc\\cg\\CGTestFile.java";
+        String path = "E:\\nbu\\other\\java-callgraph-spoon\\src\\main\\java\\org\\nhjclxc\\cg";
         launcher.addInputResource(path);
         // 设置输出目录（可选）  该输出就是你对代码修改过后的结果，如果你只是对代码进行读取操作那么不需要设备该目录
         String outputPath = "output";
