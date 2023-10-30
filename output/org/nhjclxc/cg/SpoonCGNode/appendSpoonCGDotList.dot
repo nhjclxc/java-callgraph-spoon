@@ -1,0 +1,4 @@
+digraph "org.nhjclxc.cg.SpoonCGNode.appendSpoonCGDotList(org.nhjclxc.cg.SpoonCGNode)" {
+"org.nhjclxc.cg.SpoonCGNode.appendSpoonCGDotList(org.nhjclxc.cg.SpoonCGNode)" -> "java.util.List.add(java.lang.Object)";
+
+}

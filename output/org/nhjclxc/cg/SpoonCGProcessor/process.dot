@@ -1,0 +1,4 @@
+digraph "org.nhjclxc.cg.SpoonCGProcessor.process(spoon.reflect.declaration.CtMethod)" {
+"org.nhjclxc.cg.SpoonCGProcessor.process(spoon.reflect.declaration.CtMethod)" -> "spoon.reflect.visitor.CtVisitable.accept(spoon.reflect.visitor.CtVisitor)";
+
+}

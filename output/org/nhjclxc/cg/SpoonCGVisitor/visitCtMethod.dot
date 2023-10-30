@@ -1,0 +1,70 @@
+digraph "org.nhjclxc.cg.SpoonCGVisitor.visitCtMethod(spoon.reflect.declaration.CtMethod)" {
+"org.nhjclxc.cg.SpoonCGVisitor.visitCtMethod(spoon.reflect.declaration.CtMethod)" -> "java.util.Set.contains(java.lang.Object)";
+
+"org.nhjclxc.cg.SpoonCGVisitor.visitCtMethod(spoon.reflect.declaration.CtMethod)" -> "spoon.reflect.declaration.CtModifiable.getModifiers()";
+
+"org.nhjclxc.cg.SpoonCGVisitor.getMethodQualifiedName(spoon.reflect.declaration.CtMethod)" -> "spoon.reflect.declaration.CtTypeMember.getDeclaringType()";
+
+"org.nhjclxc.cg.SpoonCGVisitor.getMethodQualifiedName(spoon.reflect.declaration.CtMethod)" -> "spoon.reflect.declaration.CtPackage.getQualifiedName()";
+
+"org.nhjclxc.cg.SpoonCGVisitor.getMethodQualifiedName(spoon.reflect.declaration.CtMethod)" -> "spoon.reflect.declaration.CtType.getPackage()";
+
+"org.nhjclxc.cg.SpoonCGVisitor.getMethodQualifiedName(spoon.reflect.declaration.CtMethod)" -> "spoon.reflect.declaration.CtType.getSimpleName()";
+
+"org.nhjclxc.cg.SpoonCGVisitor.getMethodQualifiedName(spoon.reflect.declaration.CtMethod)" -> "spoon.reflect.declaration.CtExecutable.getSignature()";
+
+"org.nhjclxc.cg.SpoonCGVisitor.getMethodQualifiedName(spoon.reflect.declaration.CtMethod)" -> "spoon.reflect.declaration.CtTypeInformation.getQualifiedName()";
+
+"org.nhjclxc.cg.SpoonCGVisitor.getMethodQualifiedName(spoon.reflect.declaration.CtMethod)" -> "spoon.reflect.declaration.CtTypedElement.getType()";
+
+"org.nhjclxc.cg.SpoonCGVisitor.visitCtMethod(spoon.reflect.declaration.CtMethod)" -> "org.nhjclxc.cg.SpoonCGVisitor.getMethodQualifiedName(spoon.reflect.declaration.CtMethod)";
+
+"org.nhjclxc.cg.SpoonCGVisitor.visitCtMethod(spoon.reflect.declaration.CtMethod)" -> "java.util.Set.contains(java.lang.Object)";
+
+"org.nhjclxc.cg.SpoonCGVisitor.visitCtMethod(spoon.reflect.declaration.CtMethod)" -> "java.util.Set.add(java.lang.Object)";
+
+"org.nhjclxc.cg.SpoonCGVisitor.getSpoonCGNode(java.lang.String)" -> "java.util.Map.get(java.lang.Object)";
+
+"org.nhjclxc.cg.SpoonCGVisitor.getSpoonCGNode(java.lang.String)" -> "org.nhjclxc.cg.SpoonCGNode(java.lang.String)";
+
+"org.nhjclxc.cg.SpoonCGVisitor.getSpoonCGNode(java.lang.String)" -> "java.util.Map.put(java.lang.Object,java.lang.Object)";
+
+"org.nhjclxc.cg.SpoonCGVisitor.visitCtMethod(spoon.reflect.declaration.CtMethod)" -> "org.nhjclxc.cg.SpoonCGVisitor.getSpoonCGNode(java.lang.String)";
+
+"org.nhjclxc.cg.SpoonCGVisitor.visitCtMethod(spoon.reflect.declaration.CtMethod)" -> "org.nhjclxc.cg.SpoonCGNode.getSpoonCGDotList()";
+
+"org.nhjclxc.cg.SpoonCGVisitor.visitCtMethod(spoon.reflect.declaration.CtMethod)" -> "spoon.reflect.declaration.CtElement.getElements(spoon.reflect.visitor.Filter)";
+
+"org.nhjclxc.cg.SpoonCGVisitor.visitCtMethod(spoon.reflect.declaration.CtMethod)" -> "spoon.reflect.declaration.CtExecutable.getBody()";
+
+"org.nhjclxc.cg.SpoonCGVisitor.visitCtMethod(spoon.reflect.declaration.CtMethod)" -> "java.io.PrintStream.println(java.lang.String)";
+
+"org.nhjclxc.cg.SpoonCGVisitor.visitCtMethod(spoon.reflect.declaration.CtMethod)" -> "spoon.reflect.code.CtAbstractInvocation.getExecutable()";
+
+"org.nhjclxc.cg.SpoonCGVisitor.visitCtMethod(spoon.reflect.declaration.CtMethod)" -> "spoon.reflect.declaration.CtTypeInformation.getQualifiedName()";
+
+"org.nhjclxc.cg.SpoonCGVisitor.visitCtMethod(spoon.reflect.declaration.CtMethod)" -> "spoon.reflect.reference.CtExecutableReference.getDeclaringType()";
+
+"org.nhjclxc.cg.SpoonCGVisitor.visitCtMethod(spoon.reflect.declaration.CtMethod)" -> "java.lang.Object.toString()";
+
+"org.nhjclxc.cg.SpoonCGVisitor.visitCtMethod(spoon.reflect.declaration.CtMethod)" -> "spoon.reflect.reference.CtExecutableReference.getType()";
+
+"org.nhjclxc.cg.SpoonCGVisitor.visitCtMethod(spoon.reflect.declaration.CtMethod)" -> "java.io.PrintStream.println(java.lang.String)";
+
+"org.nhjclxc.cg.SpoonCGVisitor.visitCtMethod(spoon.reflect.declaration.CtMethod)" -> "spoon.reflect.code.CtAbstractInvocation.getExecutable()";
+
+"org.nhjclxc.cg.SpoonCGVisitor.visitCtMethod(spoon.reflect.declaration.CtMethod)" -> "java.lang.Object.toString()";
+
+"org.nhjclxc.cg.SpoonCGVisitor.visitCtMethod(spoon.reflect.declaration.CtMethod)" -> "java.io.PrintStream.println(java.lang.String)";
+
+"org.nhjclxc.cg.SpoonCGVisitor.getSpoonCGNode(java.lang.String)" -> "java.util.Map.get(java.lang.Object)";
+
+"org.nhjclxc.cg.SpoonCGVisitor.getSpoonCGNode(java.lang.String)" -> "org.nhjclxc.cg.SpoonCGNode(java.lang.String)";
+
+"org.nhjclxc.cg.SpoonCGVisitor.getSpoonCGNode(java.lang.String)" -> "java.util.Map.put(java.lang.Object,java.lang.Object)";
+
+"org.nhjclxc.cg.SpoonCGVisitor.visitCtMethod(spoon.reflect.declaration.CtMethod)" -> "org.nhjclxc.cg.SpoonCGVisitor.getSpoonCGNode(java.lang.String)";
+
+"org.nhjclxc.cg.SpoonCGVisitor.visitCtMethod(spoon.reflect.declaration.CtMethod)" -> "java.util.List.add(java.lang.Object)";
+
+}

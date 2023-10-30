@@ -1,0 +1,20 @@
+digraph "org.nhjclxc.cg.FileUtils.write(java.lang.String,java.lang.String)" {
+"org.nhjclxc.cg.FileUtils.write(java.lang.String,java.lang.String)" -> "java.io.File(java.lang.String)";
+
+"org.nhjclxc.cg.FileUtils.write(java.lang.String,java.lang.String)" -> "java.io.File.getParentFile()";
+
+"org.nhjclxc.cg.FileUtils.write(java.lang.String,java.lang.String)" -> "java.io.File.exists()";
+
+"org.nhjclxc.cg.FileUtils.write(java.lang.String,java.lang.String)" -> "java.io.File.mkdirs()";
+
+"org.nhjclxc.cg.FileUtils.write(java.lang.String,java.lang.String)" -> "java.io.FileWriter(java.io.File)";
+
+"org.nhjclxc.cg.FileUtils.write(java.lang.String,java.lang.String)" -> "java.io.Writer.write(java.lang.String)";
+
+"org.nhjclxc.cg.FileUtils.write(java.lang.String,java.lang.String)" -> "java.io.OutputStreamWriter.flush()";
+
+"org.nhjclxc.cg.FileUtils.write(java.lang.String,java.lang.String)" -> "java.io.OutputStreamWriter.close()";
+
+"org.nhjclxc.cg.FileUtils.write(java.lang.String,java.lang.String)" -> "java.lang.RuntimeException(java.lang.Throwable)";
+
+}

@@ -1,0 +1,16 @@
+digraph "org.nhjclxc.cg.SpoonCGVisitor.getMethodQualifiedName(spoon.reflect.declaration.CtMethod)" {
+"org.nhjclxc.cg.SpoonCGVisitor.getMethodQualifiedName(spoon.reflect.declaration.CtMethod)" -> "spoon.reflect.declaration.CtTypeMember.getDeclaringType()";
+
+"org.nhjclxc.cg.SpoonCGVisitor.getMethodQualifiedName(spoon.reflect.declaration.CtMethod)" -> "spoon.reflect.declaration.CtPackage.getQualifiedName()";
+
+"org.nhjclxc.cg.SpoonCGVisitor.getMethodQualifiedName(spoon.reflect.declaration.CtMethod)" -> "spoon.reflect.declaration.CtType.getPackage()";
+
+"org.nhjclxc.cg.SpoonCGVisitor.getMethodQualifiedName(spoon.reflect.declaration.CtMethod)" -> "spoon.reflect.declaration.CtType.getSimpleName()";
+
+"org.nhjclxc.cg.SpoonCGVisitor.getMethodQualifiedName(spoon.reflect.declaration.CtMethod)" -> "spoon.reflect.declaration.CtExecutable.getSignature()";
+
+"org.nhjclxc.cg.SpoonCGVisitor.getMethodQualifiedName(spoon.reflect.declaration.CtMethod)" -> "spoon.reflect.declaration.CtTypeInformation.getQualifiedName()";
+
+"org.nhjclxc.cg.SpoonCGVisitor.getMethodQualifiedName(spoon.reflect.declaration.CtMethod)" -> "spoon.reflect.declaration.CtTypedElement.getType()";
+
+}

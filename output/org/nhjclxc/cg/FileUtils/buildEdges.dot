@@ -1,0 +1,14 @@
+digraph "org.nhjclxc.cg.FileUtils.buildEdges(org.nhjclxc.cg.SpoonCGNode,java.util.List)" {
+"org.nhjclxc.cg.FileUtils.buildEdges(org.nhjclxc.cg.SpoonCGNode,java.util.List)" -> "org.nhjclxc.cg.SpoonCGNode.getSpoonCGDotList()";
+
+"org.nhjclxc.cg.FileUtils.buildEdges(org.nhjclxc.cg.SpoonCGNode,java.util.List)" -> "java.util.List.size()";
+
+"org.nhjclxc.cg.FileUtils.buildEdges(org.nhjclxc.cg.SpoonCGNode,java.util.List)" -> "org.nhjclxc.cg.SpoonCGNode.getMethodQualifiedName()";
+
+"org.nhjclxc.cg.FileUtils.buildEdges(org.nhjclxc.cg.SpoonCGNode,java.util.List)" -> "org.nhjclxc.cg.SpoonCGNode.getMethodQualifiedName()";
+
+"org.nhjclxc.cg.FileUtils.buildEdges(org.nhjclxc.cg.SpoonCGNode,java.util.List)" -> "org.nhjclxc.cg.FileUtils.buildEdges(org.nhjclxc.cg.SpoonCGNode,java.util.List)";
+
+"org.nhjclxc.cg.FileUtils.buildEdges(org.nhjclxc.cg.SpoonCGNode,java.util.List)" -> "java.util.List.add(java.lang.Object)";
+
+}
