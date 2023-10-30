@@ -6,8 +6,12 @@
 * 
 
 
-##  keywords：java、callgraph、java-callgraph、source code
-##  download
+##  keywords：java、callgraph、java-callgraph、cg、static analysis、source code analysis
+
+
+##  run
+
+### download
     `git clone https://github.com/nhjclxc/java-callgraph-spoon.git`
     
 
@@ -20,8 +24,15 @@
   -  `cd java-callgraph-spoon`
   -  `mvn clean package`
   -  `cd target`
-  -  `java -jar java-callgraph-spoon-1.0-SNAPSHOT-jar-with-dependencies.jar path`
-  - 随后在jar包目录下会生成一个 `output` 文件夹，生成的dot格式调用图就在里面 
+  -  `java -jar java-callgraph-spoon-1.0-SNAPSHOT-jar-with-dependencies.jar path`，
+        - 如 `java -jar java-callgraph-spoon-1.0-SNAPSHOT-jar-with-dependencies.jar "E:\nbu\other\java-callgraph-spoon\src\main\java\org\nhjclxc"`
+  - 随后在jar包目录下会生成一个 `output` 文件夹，生成的dot格式调用图就在里面
+
+### 结果示例
+
+[build.dot](example%2Fbuild.dot)
+![build.png](example%2Fbuild.png)
+
 
 ## 可视化
 
