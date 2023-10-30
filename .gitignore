@@ -53,6 +53,9 @@ gen### Java template
 *.war
 *.ear
 
+# Project output Files #
+/spooned
+
 
 
 

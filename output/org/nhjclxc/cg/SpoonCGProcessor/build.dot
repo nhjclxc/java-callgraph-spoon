@@ -1,6 +1,4 @@
-digraph "org.nhjclxc.cg.SpoonCGProcessor.main(java.lang.String[])" {
-"org.nhjclxc.cg.SpoonCGProcessor.main(java.lang.String[])" -> "org.nhjclxc.cg.SpoonCGProcessor()";
-
+digraph "org.nhjclxc.cg.SpoonCGProcessor.build(java.lang.String)" {
 "org.nhjclxc.cg.SpoonCGProcessor.build(java.lang.String)" -> "spoon.Launcher()";
 
 "org.nhjclxc.cg.SpoonCGProcessor.build(java.lang.String)" -> "spoon.Launcher.addInputResource(java.lang.String)";
@@ -142,7 +140,5 @@ digraph "org.nhjclxc.cg.SpoonCGProcessor.main(java.lang.String[])" {
 "org.nhjclxc.cg.SpoonCGProcessor.build(java.lang.String)" -> "java.io.PrintStream.println(java.lang.String)";
 
 "org.nhjclxc.cg.SpoonCGProcessor.build(java.lang.String)" -> "java.io.PrintStream.println(java.lang.String)";
-
-"org.nhjclxc.cg.SpoonCGProcessor.main(java.lang.String[])" -> "org.nhjclxc.cg.SpoonCGProcessor.build(java.lang.String)";
 
 }
