@@ -1,8 +1,8 @@
 package org.nhjclxc.cg;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import org.nhjclxc.graphviz.GraphvizAssistant;
+
+import java.io.*;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
@@ -24,7 +24,9 @@ public class FileUtils {
         for (Map.Entry<String, String> entry : methodInvocationDotGraph.entrySet()) {
             String method = entry.getKey();
             String dot = entry.getValue();
-            write(outputPath + "\\" + getFilePath(method) + ".dot", dot);
+//            System.out.println(dot);
+            File dotFile = write(outputPath + "\\" + getFilePath(method) + ".dot", dot);
+            GraphvizAssistant.createImage(dotFile, "png", "dot");
         }
 
     }
@@ -36,9 +38,11 @@ public class FileUtils {
         return path.replaceAll("\\.", "\\\\");
     }
 
-    private static void write(String filename, String data) {
+    public static File write(String filename, String data) {
+
+        File file = null;
         try {
-            File file = new File(filename);
+            file = new File(filename);
             // 创建目录（如果不存在）
             File directory = file.getParentFile();
             if (!directory.exists()) {
@@ -51,6 +55,7 @@ public class FileUtils {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+        return file;
     }
 
     /**
@@ -85,15 +90,15 @@ public class FileUtils {
     }
 
     /**
-     * 构造从当前节点到终点的所有路径
+     * 构造从当前节点到终点的所有可能路径
      *
      * @param spoonCGNode 当前节点
-     * @param edgeList 边集合
+     * @param edgeList    边集合
      * @author 罗贤超
      */
     private static void buildEdges(SpoonCGNode spoonCGNode, List<String> edgeList) {
         List<SpoonCGNode> spoonCGDotList = spoonCGNode.getSpoonCGDotList();
-        if (spoonCGDotList != null && spoonCGDotList.size() > 0){
+        if (spoonCGDotList != null && spoonCGDotList.size() > 0) {
             String key = spoonCGNode.getMethodQualifiedName();
             for (SpoonCGNode cgNode : spoonCGDotList) {
                 String edge = "\"" + key + "\" -> \"" + cgNode.getMethodQualifiedName();

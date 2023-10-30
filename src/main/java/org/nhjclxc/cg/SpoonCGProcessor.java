@@ -43,11 +43,10 @@ public class SpoonCGProcessor extends AbstractProcessor<CtMethod<?>> { // 泛型
 
         FileUtils.writeDotFile(outputPath, spoonCGNodeMap);
 
-        Map<String, String> stringStringMap = FileUtils.toDot(spoonCGNodeMap);
-        stringStringMap.forEach((k, v) -> {
-            System.out.println(k + " ：");
-            System.out.println(v);
-        });
+        System.out.println("");
+        System.out.println("解析成功，文件已生成，请在output文件夹下查收");
+        System.out.println("");
+
 
     }
 
