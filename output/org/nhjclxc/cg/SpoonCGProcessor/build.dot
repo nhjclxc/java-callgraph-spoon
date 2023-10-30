@@ -95,17 +95,31 @@ digraph "org.nhjclxc.cg.SpoonCGProcessor.build(java.lang.String)" {
 
 "org.nhjclxc.cg.FileUtils.writeDotFile(java.lang.String,java.util.Map)" -> "org.nhjclxc.cg.FileUtils.getFilePath(java.lang.String)";
 
+"org.nhjclxc.graphviz.GraphvizAssistant.getFilePathPerfix(java.lang.String)" -> "java.lang.String.lastIndexOf(java.lang.String)";
+
+"org.nhjclxc.graphviz.GraphvizAssistant.getFilePathPerfix(java.lang.String)" -> "java.lang.String.substring(int,int)";
+
+"org.nhjclxc.graphviz.GraphvizAssistant.createImage(java.io.File,java.lang.String,java.lang.String)" -> "org.nhjclxc.graphviz.GraphvizAssistant.getFilePathPerfix(java.lang.String)";
+
+"org.nhjclxc.graphviz.GraphvizAssistant.createImage(java.io.File,java.lang.String,java.lang.String)" -> "java.io.File.getAbsolutePath()";
+
+"org.nhjclxc.graphviz.GraphvizAssistant.createImage(java.io.File,java.lang.String,java.lang.String)" -> "java.io.File(java.lang.String)";
+
+"org.nhjclxc.graphviz.GraphvizAssistant.createImage(java.io.File,java.lang.String,java.lang.String)" -> "java.lang.Runtime.getRuntime()";
+
+"org.nhjclxc.graphviz.GraphvizAssistant.createImage(java.io.File,java.lang.String,java.lang.String)" -> "java.io.File.getAbsolutePath()";
+
+"org.nhjclxc.graphviz.GraphvizAssistant.createImage(java.io.File,java.lang.String,java.lang.String)" -> "java.io.File.getAbsolutePath()";
+
+"org.nhjclxc.graphviz.GraphvizAssistant.createImage(java.io.File,java.lang.String,java.lang.String)" -> "java.lang.Runtime.exec(java.lang.String[])";
+
+"org.nhjclxc.graphviz.GraphvizAssistant.createImage(java.io.File,java.lang.String,java.lang.String)" -> "java.lang.Process.waitFor()";
+
+"org.nhjclxc.graphviz.GraphvizAssistant.createImage(java.io.File,java.lang.String,java.lang.String)" -> "java.lang.Throwable.printStackTrace()";
+
 "org.nhjclxc.cg.FileUtils.writeDotFile(java.lang.String,java.util.Map)" -> "org.nhjclxc.graphviz.GraphvizAssistant.createImage(java.io.File,java.lang.String,java.lang.String)";
 
 "org.nhjclxc.cg.SpoonCGProcessor.build(java.lang.String)" -> "org.nhjclxc.cg.FileUtils.writeDotFile(java.lang.String,java.util.Map)";
-
-"org.nhjclxc.cg.SpoonCGProcessor.build(java.lang.String)" -> "java.io.PrintStream.println(java.lang.String)";
-
-"org.nhjclxc.cg.SpoonCGProcessor.build(java.lang.String)" -> "java.io.PrintStream.println(java.lang.String)";
-
-"org.nhjclxc.cg.SpoonCGProcessor.build(java.lang.String)" -> "java.io.PrintStream.println(java.lang.String)";
-
-"org.nhjclxc.cg.SpoonCGProcessor.build(java.lang.String)" -> "java.io.PrintStream.println(java.lang.String)";
 
 "org.nhjclxc.cg.SpoonCGProcessor.build(java.lang.String)" -> "java.io.PrintStream.println(java.lang.String)";
 

@@ -1,4 +1,40 @@
-digraph "org.nhjclxc.cg.FileUtils.writeDotFile(java.lang.String,java.util.Map)" {
+digraph "org.nhjclxc.Main.main(java.lang.String[])" {
+"org.nhjclxc.Main.main(java.lang.String[])" -> "java.io.PrintStream.println(java.lang.String)";
+
+"org.nhjclxc.Main.main(java.lang.String[])" -> "java.io.PrintStream.println(java.lang.String)";
+
+"org.nhjclxc.Main.main(java.lang.String[])" -> "java.io.PrintStream.println(java.lang.String)";
+
+"org.nhjclxc.Main.main(java.lang.String[])" -> "java.io.PrintStream.println(java.lang.String)";
+
+"org.nhjclxc.Main.main(java.lang.String[])" -> "java.io.PrintStream.println(java.lang.String)";
+
+"org.nhjclxc.Main.main(java.lang.String[])" -> "java.io.PrintStream.println(java.lang.String)";
+
+"org.nhjclxc.Main.main(java.lang.String[])" -> "org.nhjclxc.cg.SpoonCGProcessor()";
+
+"org.nhjclxc.Main.main(java.lang.String[])" -> "java.io.PrintStream.println(java.lang.String)";
+
+"org.nhjclxc.Main.main(java.lang.String[])" -> "java.io.PrintStream.println(java.lang.String)";
+
+"org.nhjclxc.cg.SpoonCGProcessor.build(java.lang.String)" -> "spoon.Launcher()";
+
+"org.nhjclxc.cg.SpoonCGProcessor.build(java.lang.String)" -> "spoon.Launcher.addInputResource(java.lang.String)";
+
+"org.nhjclxc.cg.SpoonCGProcessor.build(java.lang.String)" -> "spoon.Launcher.addProcessor(spoon.processing.Processor)";
+
+"org.nhjclxc.cg.SpoonCGProcessor.build(java.lang.String)" -> "spoon.Launcher.run()";
+
+"org.nhjclxc.cg.SpoonCGVisitor.getSpoonCGNodeMap()" -> "java.util.Collection.removeIf(java.util.function.Predicate)";
+
+"org.nhjclxc.cg.SpoonCGVisitor.getSpoonCGNodeMap()" -> "java.util.Map.entrySet()";
+
+"org.nhjclxc.cg.SpoonCGVisitor.getSpoonCGNodeMap()" -> "java.util.Set.contains(java.lang.Object)";
+
+"org.nhjclxc.cg.SpoonCGVisitor.getSpoonCGNodeMap()" -> "java.util.Map$Entry.getKey()";
+
+"org.nhjclxc.cg.SpoonCGProcessor.build(java.lang.String)" -> "org.nhjclxc.cg.SpoonCGVisitor.getSpoonCGNodeMap()";
+
 "org.nhjclxc.cg.FileUtils.toDot(java.util.Map)" -> "java.util.HashMap()";
 
 "org.nhjclxc.cg.FileUtils.toDot(java.util.Map)" -> "java.util.Map.entrySet()";
@@ -100,5 +136,15 @@ digraph "org.nhjclxc.cg.FileUtils.writeDotFile(java.lang.String,java.util.Map)" 
 "org.nhjclxc.graphviz.GraphvizAssistant.createImage(java.io.File,java.lang.String,java.lang.String)" -> "java.lang.Throwable.printStackTrace()";
 
 "org.nhjclxc.cg.FileUtils.writeDotFile(java.lang.String,java.util.Map)" -> "org.nhjclxc.graphviz.GraphvizAssistant.createImage(java.io.File,java.lang.String,java.lang.String)";
+
+"org.nhjclxc.cg.SpoonCGProcessor.build(java.lang.String)" -> "org.nhjclxc.cg.FileUtils.writeDotFile(java.lang.String,java.util.Map)";
+
+"org.nhjclxc.cg.SpoonCGProcessor.build(java.lang.String)" -> "java.io.PrintStream.println(java.lang.String)";
+
+"org.nhjclxc.cg.SpoonCGProcessor.build(java.lang.String)" -> "java.io.PrintStream.println(java.lang.String)";
+
+"org.nhjclxc.cg.SpoonCGProcessor.build(java.lang.String)" -> "java.io.PrintStream.println(java.lang.String)";
+
+"org.nhjclxc.Main.main(java.lang.String[])" -> "org.nhjclxc.cg.SpoonCGProcessor.build(java.lang.String)";
 
 }

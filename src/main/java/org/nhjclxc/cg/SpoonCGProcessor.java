@@ -53,7 +53,7 @@ public class SpoonCGProcessor extends AbstractProcessor<CtMethod<?>> { // 泛型
     public static void main(String[] args) {
 
         // path可以是文件夹或是单个文件
-        String path = "E:\\nbu\\other\\java-callgraph-spoon\\src\\main\\java\\org\\nhjclxc\\cg";
+        String path = "E:\\nbu\\other\\java-callgraph-spoon\\src\\main\\java\\org\\nhjclxc";
         SpoonCGProcessor spoonCGProcessor = new SpoonCGProcessor();
         spoonCGProcessor.build(path);
 
