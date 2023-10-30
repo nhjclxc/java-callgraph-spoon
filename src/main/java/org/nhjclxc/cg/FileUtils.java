@@ -26,7 +26,9 @@ public class FileUtils {
             String dot = entry.getValue();
 //            System.out.println(dot);
             File dotFile = write(outputPath + "\\" + getFilePath(method) + ".dot", dot);
-            GraphvizAssistant.createImage(dotFile, "png", "dot");
+            // 没有安装Graphviz的话不要打开下面这一句。
+            // 安装了Graphviz，可以打开下面这一句，会生成dot语言对应的图片
+            // GraphvizAssistant.createImage(dotFile, "png", "dot");
         }
 
     }
