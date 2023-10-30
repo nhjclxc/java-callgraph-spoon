@@ -30,8 +30,9 @@
 
 ### 结果示例
 
-[build.dot](example%2Fbuild.dot)
-![build.png](example%2Fbuild.png)
+[build.dot](output%2Forg%2Fnhjclxc%2Fcg%2FSpoonCGProcessor%2Fbuild.dot)[build.dot](example%2Fbuild.dot)
+![build.png](output%2Forg%2Fnhjclxc%2Fcg%2FSpoonCGProcessor%2Fbuild.png)![build.png](example%2Fbuild.png)
+![build.svg](output%2Forg%2Fnhjclxc%2Fcg%2FSpoonCGProcessor%2Fbuild.svg)
 
 
 ## 可视化
